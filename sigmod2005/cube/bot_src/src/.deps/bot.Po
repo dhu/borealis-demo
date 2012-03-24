@@ -1,0 +1,639 @@
+bot.o bot.o: bot.cpp /opt/gcc334/include/c++/3.3.4/string \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++config.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h /usr/include/bits/predefs.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stringfwd.h \
+  /opt/gcc334/include/c++/3.3.4/bits/char_traits.h \
+  /opt/gcc334/include/c++/3.3.4/cstring \
+  /opt/gcc334/include/c++/3.3.4/cstddef \
+  /opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/stddef.h \
+  /usr/include/string.h /usr/include/xlocale.h \
+  /opt/gcc334/include/c++/3.3.4/bits/fpos.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++io.h \
+  /opt/gcc334/include/c++/3.3.4/cstdio /usr/include/stdio.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/gconv.h \
+  /opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/gthr.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sched.h /usr/include/time.h \
+  /usr/include/bits/sched.h /usr/include/bits/time.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /opt/gcc334/include/c++/3.3.4/cwchar \
+  /opt/gcc334/include/c++/3.3.4/ctime /usr/include/bits/wchar.h \
+  /opt/gcc334/include/c++/3.3.4/memory \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_algobase.h \
+  /opt/gcc334/include/c++/3.3.4/climits \
+  /opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/limits.h \
+  /opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /opt/gcc334/include/c++/3.3.4/cstdlib /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+  /opt/gcc334/include/c++/3.3.4/new \
+  /opt/gcc334/include/c++/3.3.4/exception \
+  /opt/gcc334/include/c++/3.3.4/iosfwd \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++locale.h \
+  /opt/gcc334/include/c++/3.3.4/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /opt/gcc334/include/c++/3.3.4/cctype \
+  /usr/include/ctype.h /opt/gcc334/include/c++/3.3.4/bits/functexcept.h \
+  /opt/gcc334/include/c++/3.3.4/exception_defines.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_pair.h \
+  /opt/gcc334/include/c++/3.3.4/bits/type_traits.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_iterator_base_types.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_iterator_base_funcs.h \
+  /opt/gcc334/include/c++/3.3.4/bits/concept_check.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_iterator.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_alloc.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_threads.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/atomicity.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_construct.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_uninitialized.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_raw_storage_iter.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_function.h \
+  /opt/gcc334/include/c++/3.3.4/bits/basic_string.h \
+  /opt/gcc334/include/c++/3.3.4/algorithm \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_algo.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_heap.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_tempbuf.h \
+  /opt/gcc334/include/c++/3.3.4/bits/basic_string.tcc \
+  /opt/gcc334/include/c++/3.3.4/map \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_tree.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_map.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_multimap.h \
+  /opt/gcc334/include/c++/3.3.4/vector \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_vector.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_bvector.h \
+  /opt/gcc334/include/c++/3.3.4/bits/vector.tcc \
+  /opt/borealis-tools/nmstl/include/NMSTL/ptr \
+  /opt/borealis-tools/nmstl/include/NMSTL/thread \
+  /opt/borealis-tools/nmstl/include/NMSTL/internal.h \
+  /opt/gcc334/include/c++/3.3.4/iostream \
+  /opt/gcc334/include/c++/3.3.4/ostream /opt/gcc334/include/c++/3.3.4/ios \
+  /opt/gcc334/include/c++/3.3.4/bits/localefwd.h \
+  /opt/gcc334/include/c++/3.3.4/bits/ios_base.h \
+  /opt/gcc334/include/c++/3.3.4/bits/locale_classes.h \
+  /opt/gcc334/include/c++/3.3.4/streambuf \
+  /opt/gcc334/include/c++/3.3.4/bits/streambuf.tcc \
+  /opt/gcc334/include/c++/3.3.4/bits/basic_ios.h \
+  /opt/gcc334/include/c++/3.3.4/bits/streambuf_iterator.h \
+  /opt/gcc334/include/c++/3.3.4/bits/locale_facets.h \
+  /opt/gcc334/include/c++/3.3.4/cwctype /usr/include/wctype.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/ctype_base.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/ctype_inline.h \
+  /opt/gcc334/include/c++/3.3.4/bits/codecvt.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/codecvt_specializations.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/time_members.h \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/messages_members.h \
+  /opt/gcc334/include/c++/3.3.4/bits/basic_ios.tcc \
+  /opt/gcc334/include/c++/3.3.4/bits/ostream.tcc \
+  /opt/gcc334/include/c++/3.3.4/locale \
+  /opt/gcc334/include/c++/3.3.4/bits/locale_facets.tcc \
+  /opt/gcc334/include/c++/3.3.4/cerrno /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno-base.h \
+  /opt/gcc334/include/c++/3.3.4/cmath /usr/include/math.h \
+  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+  /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h \
+  /opt/gcc334/include/c++/3.3.4/bits/cmath.tcc \
+  /opt/gcc334/include/c++/3.3.4/limits \
+  /opt/gcc334/include/c++/3.3.4/typeinfo \
+  /opt/gcc334/include/c++/3.3.4/istream \
+  /opt/gcc334/include/c++/3.3.4/bits/istream.tcc \
+  /opt/gcc334/include/c++/3.3.4/iomanip \
+  /opt/gcc334/include/c++/3.3.4/functional \
+  /opt/gcc334/include/c++/3.3.4/sstream \
+  /opt/gcc334/include/c++/3.3.4/bits/sstream.tcc \
+  /opt/gcc334/include/c++/3.3.4/list \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_list.h \
+  /opt/gcc334/include/c++/3.3.4/bits/list.tcc \
+  /opt/gcc334/include/c++/3.3.4/set \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_set.h \
+  /opt/gcc334/include/c++/3.3.4/bits/stl_multiset.h \
+  /opt/gcc334/include/c++/3.3.4/cxxabi.h \
+  /opt/borealis-tools/nmstl/include/NMSTL/ntime /usr/include/sys/time.h \
+  /opt/borealis-tools/nmstl/include/NMSTL/debug \
+  /opt/gcc334/include/c++/3.3.4/cassert /usr/include/assert.h \
+  /opt/borealis-tools/nmstl/include/NMSTL/atomic tuples.h cube.h tools.h \
+  /opt/gcc334/include/c++/3.3.4/backward/new.h \
+  /opt/gcc334/include/c++/3.3.4/backward/backward_warning.h ../config.h \
+  /usr/include/dlfcn.h /usr/include/bits/dlfcn.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/inttypes.h /usr/include/stdint.h \
+  /usr/include/GL/glu.h /usr/include/SDL/SDL.h \
+  /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h \
+  /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h \
+  /usr/include/strings.h /usr/include/iconv.h \
+  /usr/include/SDL/begin_code.h /usr/include/SDL/close_code.h \
+  /usr/include/SDL/SDL_audio.h /usr/include/SDL/SDL_error.h \
+  /usr/include/SDL/SDL_endian.h /usr/include/SDL/SDL_mutex.h \
+  /usr/include/SDL/SDL_thread.h /usr/include/SDL/SDL_rwops.h \
+  /usr/include/SDL/SDL_cdrom.h /usr/include/SDL/SDL_cpuinfo.h \
+  /usr/include/SDL/SDL_events.h /usr/include/SDL/SDL_active.h \
+  /usr/include/SDL/SDL_keyboard.h /usr/include/SDL/SDL_keysym.h \
+  /usr/include/SDL/SDL_mouse.h /usr/include/SDL/SDL_video.h \
+  /usr/include/SDL/SDL_joystick.h /usr/include/SDL/SDL_quit.h \
+  /usr/include/SDL/SDL_loadso.h /usr/include/SDL/SDL_timer.h \
+  /usr/include/SDL/SDL_version.h /usr/include/SDL/SDL_image.h \
+  ../enet/include/enet/enet.h ../enet/include/enet/types.h \
+  ../enet/include/enet/protocol.h ../enet/include/enet/list.h \
+  ../enet/include/enet/unix.h /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h /usr/include/sys/uio.h \
+  /usr/include/bits/uio.h /usr/include/bits/socket.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/bits/in.h /usr/include/zlib.h \
+  /usr/include/zconf.h /usr/include/zlibdefs.h protos.h bot.h bot_util.h \
+  bot_waypoint.h /opt/gcc334/include/c++/3.3.4/fstream \
+  /opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/basic_file.h \
+  /opt/gcc334/include/c++/3.3.4/bits/fstream.tcc \
+  /usr/include/sys/syslog.h /usr/include/bits/syslog-path.h
+
+/opt/gcc334/include/c++/3.3.4/string:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++config.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stringfwd.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/char_traits.h:
+
+/opt/gcc334/include/c++/3.3.4/cstring:
+
+/opt/gcc334/include/c++/3.3.4/cstddef:
+
+/opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/fpos.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++io.h:
+
+/opt/gcc334/include/c++/3.3.4/cstdio:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/gconv.h:
+
+/opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/gthr.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/opt/gcc334/include/c++/3.3.4/cwchar:
+
+/opt/gcc334/include/c++/3.3.4/ctime:
+
+/usr/include/bits/wchar.h:
+
+/opt/gcc334/include/c++/3.3.4/memory:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_algobase.h:
+
+/opt/gcc334/include/c++/3.3.4/climits:
+
+/opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/limits.h:
+
+/opt/gcc334/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/opt/gcc334/include/c++/3.3.4/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/opt/gcc334/include/c++/3.3.4/new:
+
+/opt/gcc334/include/c++/3.3.4/exception:
+
+/opt/gcc334/include/c++/3.3.4/iosfwd:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/c++locale.h:
+
+/opt/gcc334/include/c++/3.3.4/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/opt/gcc334/include/c++/3.3.4/cctype:
+
+/usr/include/ctype.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/functexcept.h:
+
+/opt/gcc334/include/c++/3.3.4/exception_defines.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_pair.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/type_traits.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_iterator_base_types.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_iterator_base_funcs.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/concept_check.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_iterator.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_alloc.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_threads.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/atomicity.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_construct.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_uninitialized.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_raw_storage_iter.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_function.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/basic_string.h:
+
+/opt/gcc334/include/c++/3.3.4/algorithm:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_algo.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_heap.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_tempbuf.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/basic_string.tcc:
+
+/opt/gcc334/include/c++/3.3.4/map:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_tree.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_map.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_multimap.h:
+
+/opt/gcc334/include/c++/3.3.4/vector:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_vector.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_bvector.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/vector.tcc:
+
+/opt/borealis-tools/nmstl/include/NMSTL/ptr:
+
+/opt/borealis-tools/nmstl/include/NMSTL/thread:
+
+/opt/borealis-tools/nmstl/include/NMSTL/internal.h:
+
+/opt/gcc334/include/c++/3.3.4/iostream:
+
+/opt/gcc334/include/c++/3.3.4/ostream:
+
+/opt/gcc334/include/c++/3.3.4/ios:
+
+/opt/gcc334/include/c++/3.3.4/bits/localefwd.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/ios_base.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/locale_classes.h:
+
+/opt/gcc334/include/c++/3.3.4/streambuf:
+
+/opt/gcc334/include/c++/3.3.4/bits/streambuf.tcc:
+
+/opt/gcc334/include/c++/3.3.4/bits/basic_ios.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/streambuf_iterator.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/locale_facets.h:
+
+/opt/gcc334/include/c++/3.3.4/cwctype:
+
+/usr/include/wctype.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/ctype_base.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/ctype_inline.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/codecvt.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/codecvt_specializations.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/time_members.h:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/messages_members.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/basic_ios.tcc:
+
+/opt/gcc334/include/c++/3.3.4/bits/ostream.tcc:
+
+/opt/gcc334/include/c++/3.3.4/locale:
+
+/opt/gcc334/include/c++/3.3.4/bits/locale_facets.tcc:
+
+/opt/gcc334/include/c++/3.3.4/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/opt/gcc334/include/c++/3.3.4/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/cmath.tcc:
+
+/opt/gcc334/include/c++/3.3.4/limits:
+
+/opt/gcc334/include/c++/3.3.4/typeinfo:
+
+/opt/gcc334/include/c++/3.3.4/istream:
+
+/opt/gcc334/include/c++/3.3.4/bits/istream.tcc:
+
+/opt/gcc334/include/c++/3.3.4/iomanip:
+
+/opt/gcc334/include/c++/3.3.4/functional:
+
+/opt/gcc334/include/c++/3.3.4/sstream:
+
+/opt/gcc334/include/c++/3.3.4/bits/sstream.tcc:
+
+/opt/gcc334/include/c++/3.3.4/list:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_list.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/list.tcc:
+
+/opt/gcc334/include/c++/3.3.4/set:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_set.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/stl_multiset.h:
+
+/opt/gcc334/include/c++/3.3.4/cxxabi.h:
+
+/opt/borealis-tools/nmstl/include/NMSTL/ntime:
+
+/usr/include/sys/time.h:
+
+/opt/borealis-tools/nmstl/include/NMSTL/debug:
+
+/opt/gcc334/include/c++/3.3.4/cassert:
+
+/usr/include/assert.h:
+
+/opt/borealis-tools/nmstl/include/NMSTL/atomic:
+
+tuples.h:
+
+cube.h:
+
+tools.h:
+
+/opt/gcc334/include/c++/3.3.4/backward/new.h:
+
+/opt/gcc334/include/c++/3.3.4/backward/backward_warning.h:
+
+../config.h:
+
+/usr/include/dlfcn.h:
+
+/usr/include/bits/dlfcn.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glext.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/include/GL/glu.h:
+
+/usr/include/SDL/SDL.h:
+
+/usr/include/SDL/SDL_main.h:
+
+/usr/include/SDL/SDL_stdinc.h:
+
+/usr/include/SDL/SDL_config.h:
+
+/usr/include/SDL/SDL_platform.h:
+
+/usr/include/strings.h:
+
+/usr/include/iconv.h:
+
+/usr/include/SDL/begin_code.h:
+
+/usr/include/SDL/close_code.h:
+
+/usr/include/SDL/SDL_audio.h:
+
+/usr/include/SDL/SDL_error.h:
+
+/usr/include/SDL/SDL_endian.h:
+
+/usr/include/SDL/SDL_mutex.h:
+
+/usr/include/SDL/SDL_thread.h:
+
+/usr/include/SDL/SDL_rwops.h:
+
+/usr/include/SDL/SDL_cdrom.h:
+
+/usr/include/SDL/SDL_cpuinfo.h:
+
+/usr/include/SDL/SDL_events.h:
+
+/usr/include/SDL/SDL_active.h:
+
+/usr/include/SDL/SDL_keyboard.h:
+
+/usr/include/SDL/SDL_keysym.h:
+
+/usr/include/SDL/SDL_mouse.h:
+
+/usr/include/SDL/SDL_video.h:
+
+/usr/include/SDL/SDL_joystick.h:
+
+/usr/include/SDL/SDL_quit.h:
+
+/usr/include/SDL/SDL_loadso.h:
+
+/usr/include/SDL/SDL_timer.h:
+
+/usr/include/SDL/SDL_version.h:
+
+/usr/include/SDL/SDL_image.h:
+
+../enet/include/enet/enet.h:
+
+../enet/include/enet/types.h:
+
+../enet/include/enet/protocol.h:
+
+../enet/include/enet/list.h:
+
+../enet/include/enet/unix.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/zlib.h:
+
+/usr/include/zconf.h:
+
+/usr/include/zlibdefs.h:
+
+protos.h:
+
+bot.h:
+
+bot_util.h:
+
+bot_waypoint.h:
+
+/opt/gcc334/include/c++/3.3.4/fstream:
+
+/opt/gcc334/include/c++/3.3.4/i686-pc-linux-gnu/bits/basic_file.h:
+
+/opt/gcc334/include/c++/3.3.4/bits/fstream.tcc:
+
+/usr/include/sys/syslog.h:
+
+/usr/include/bits/syslog-path.h:

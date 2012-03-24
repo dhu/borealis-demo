@@ -1,0 +1,62 @@
+[7merror[0m [Mitre_DemoMarshal.cc:435] Could not subscribe to output.
+[7merror[0m [Mitre_DemoMarshal.cc:498] Could not subscribe to output.
+[7merror[0m [Mitre_DemoMarshal.cc:561] Could not subscribe to output.
+[7merror[0m [Mitre_DemoMarshal.cc:624] Could not subscribe to output.
+[7merror[0m [Mitre_DemoMarshal.cc:687] Could not subscribe to output.
+[7mnotice[0m [BigGiantHead.cc:201] Processing xml:  mitre_demo.xml
+[7mnotice[0m [BigGiantHead.cc:201] Processing xml:  mitre_demo_deployment.xml
+[7mnotice[0m [DeployDiagram.cc:742] add_xml_string element: Success
+[7mnotice[0m [DeployDiagram.cc:607] add_xml_string elementinput: Success
+[7mnotice[0m [DeployDiagram.cc:742] add_xml_string imagedata: Success
+[7mnotice[0m [DeployDiagram.cc:607] add_xml_string videoinput: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="union_all" type="union" node="127.0.1.1:15000" >
+ <in  stream="elementinput" />
+ <out  stream="unionoutput"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="projection" type="map" node="127.0.1.1:15000" >
+ <in  stream="unionoutput" />
+ <out  stream="analysisoutput"/>
+ <parameter  name="expression.0" value="timestamp"/>
+ <parameter  name="expression.1" value="id"/>
+ <parameter  name="expression.2" value="x"/>
+ <parameter  name="expression.3" value="y"/>
+ <parameter  name="expression.4" value="color"/>
+ <parameter  name="output-field-name.0" value="timestamp"/>
+ <parameter  name="output-field-name.1" value="id"/>
+ <parameter  name="output-field-name.2" value="x"/>
+ <parameter  name="output-field-name.3" value="y"/>
+ <parameter  name="output-field-name.4" value="color"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="enemytanks" type="filter" node="127.0.1.1:15000" >
+ <in  stream="analysisoutput" />
+ <out  stream="enemytanksoutput"/>
+ <parameter  name="expression.0" value="id &gt;= 0 and id &lt; 1000"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="enemyair" type="filter" node="127.0.1.1:15000" >
+ <in  stream="analysisoutput" />
+ <out  stream="enemyaircraftoutput"/>
+ <parameter  name="expression.0" value="id &gt;= 1000 and id &lt; 5000"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="acrosstheline" type="filter" node="127.0.1.1:15000" >
+ <in  stream="analysisoutput" />
+ <out  stream="acrossthelineoutput"/>
+ <parameter  name="expression.0" value="x &lt;= 350"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1039] add_xml_string <box name="video" type="union" node="127.0.1.1:15000" >
+ <in  stream="videoinput" />
+ <out  stream="videooutput"/>
+</box>
+: Success
+[7mnotice[0m [DeployDiagram.cc:1115] add_xml_string acrossthelineoutput: Success
+[7mnotice[0m [DeployDiagram.cc:1115] add_xml_string analysisoutput: Success
+[7mnotice[0m [DeployDiagram.cc:1115] add_xml_string enemyaircraftoutput: Success
+[7mnotice[0m [DeployDiagram.cc:1115] add_xml_string enemytanksoutput: Success
+[7mnotice[0m [DeployDiagram.cc:1115] add_xml_string videooutput: Success
+[7mwarn[0m [DataHandler.cc:75] Not connected yet
+[7merror[0m [Mitre_DemoMarshal.cc:217] Connection closed... stopping event stream
+[7mnotice[0m [mitre_demo.cc:92] current timestamp = 0

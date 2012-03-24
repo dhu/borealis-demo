@@ -1,0 +1,25 @@
+[7mwarn[0m [borealis.cc:221] Starting borealis at address: 127.0.1.1:15000
+[7mnotice[0m [borealis.cc:263] Creating components...
+[7mnotice[0m [borealis.cc:277] Creating RPC proxies...
+[7mnotice[0m [borealis.cc:301] Accepting TCP/RPC connections on 127.0.1.1:15000
+[7mnotice[0m [borealis.cc:314] Accepting XML/RPC connections on 127.0.1.1:15001
+[7mnotice[0m [borealis.cc:317] Don't forget to use "-d 127.0.1.1:15000" in clients
+[7mnotice[0m [BasicComponent.h:51] LocalLoadShedder starting
+[7mnotice[0m [BasicComponent.h:51] AvailabilityMonitor starting
+[7mnotice[0m [BasicComponent.h:51] QOSOptimizer starting
+[7mnotice[0m [BasicComponent.h:51] QueryProcessor starting
+[7mnotice[0m [BasicComponent.h:51] NHLoadShedder starting
+[7mnotice[0m [BasicComponent.h:51] NHOptimizer starting
+[7mnotice[0m [NHLoadShedder.cc:40] NHLoadShedder at 127.0.1.1:15000 has started...
+[7mnotice[0m [PseudoScheduler.cc:58] Launching pseudo-scheduler with AuroraNode {
+    TupleDescriptions {
+    }
+    Streams {
+    }
+    Boxes {
+    }
+}
+[7mnotice[0m [PseudoScheduler.cc:69] Started pseudo-scheduler
+[7mnotice[0m [PseudoScheduler.cc:177] Pseudo Scheduler running
+[7mnotice[0m [DataPath.cc:263] Accepting data connections on 127.0.1.1:15002
+[7mnotice[0m [NHLoadShedder.cc:189] NHLoadShedder setting up none...

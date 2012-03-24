@@ -1,0 +1,1 @@
+./configure --with-borealis=../../../../ --with-xercesc=/opt/borealis-tools/xercesc --with-nmstl=/opt/borealis-tools/nmstl
